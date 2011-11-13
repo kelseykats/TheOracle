@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC66700B147090690008FCB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC66700A147090690008FCB0 /* UIKit.framework */; };
+		FC66700D147090690008FCB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC66700C147090690008FCB0 /* Foundation.framework */; };
+		FC66700F147090690008FCB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC66700E147090690008FCB0 /* CoreGraphics.framework */; };
+		FC667015147090690008FCB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC667013147090690008FCB0 /* InfoPlist.strings */; };
+		FC667017147090690008FCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC667016147090690008FCB0 /* main.m */; };
+		FC66701B147090690008FCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66701A147090690008FCB0 /* AppDelegate.m */; };
+		FC66701E147090690008FCB0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC66701C147090690008FCB0 /* MainStoryboard.storyboard */; };
+		FC667021147090690008FCB0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC667020147090690008FCB0 /* FirstViewController.m */; };
+		FC667023147090690008FCB0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FC667022147090690008FCB0 /* first.png */; };
+		FC667025147090690008FCB0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC667024147090690008FCB0 /* first@2x.png */; };
+		FC667028147090690008FCB0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC667027147090690008FCB0 /* SecondViewController.m */; };
+		FC66702A147090690008FCB0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FC667029147090690008FCB0 /* second.png */; };
+		FC66702C147090690008FCB0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC66702B147090690008FCB0 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC667006147090690008FCB0 /* TheOracle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOracle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC66700A147090690008FCB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC66700C147090690008FCB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC66700E147090690008FCB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC667012147090690008FCB0 /* TheOracle-Info.plist */ = {isa = PBXFileReference; path = "TheOracle-Info.plist"; sourceTree = "<group>"; };
+		FC667014147090690008FCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC667016147090690008FCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC667018147090690008FCB0 /* TheOracle-Prefix.pch */ = {isa = PBXFileReference; path = "TheOracle-Prefix.pch"; sourceTree = "<group>"; };
+		FC667019147090690008FCB0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC66701A147090690008FCB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC66701D147090690008FCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FC66701F147090690008FCB0 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		FC667020147090690008FCB0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FC667022147090690008FCB0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		FC667024147090690008FCB0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		FC667026147090690008FCB0 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		FC667027147090690008FCB0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FC667029147090690008FCB0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		FC66702B147090690008FCB0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC667003147090690008FCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC66700B147090690008FCB0 /* UIKit.framework in Frameworks */,
+				FC66700D147090690008FCB0 /* Foundation.framework in Frameworks */,
+				FC66700F147090690008FCB0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC666FFB147090690008FCB0 = {
+			isa = PBXGroup;
+			children = (
+				FC667010147090690008FCB0 /* TheOracle */,
+				FC667009147090690008FCB0 /* Frameworks */,
+				FC667007147090690008FCB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC667007147090690008FCB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC667006147090690008FCB0 /* TheOracle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC667009147090690008FCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC66700A147090690008FCB0 /* UIKit.framework */,
+				FC66700C147090690008FCB0 /* Foundation.framework */,
+				FC66700E147090690008FCB0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC667010147090690008FCB0 /* TheOracle */ = {
+			isa = PBXGroup;
+			children = (
+				FC667019147090690008FCB0 /* AppDelegate.h */,
+				FC66701A147090690008FCB0 /* AppDelegate.m */,
+				FC66701C147090690008FCB0 /* MainStoryboard.storyboard */,
+				FC66701F147090690008FCB0 /* FirstViewController.h */,
+				FC667020147090690008FCB0 /* FirstViewController.m */,
+				FC667022147090690008FCB0 /* first.png */,
+				FC667024147090690008FCB0 /* first@2x.png */,
+				FC667026147090690008FCB0 /* SecondViewController.h */,
+				FC667027147090690008FCB0 /* SecondViewController.m */,
+				FC667029147090690008FCB0 /* second.png */,
+				FC66702B147090690008FCB0 /* second@2x.png */,
+				FC667011147090690008FCB0 /* Supporting Files */,
+			);
+			path = TheOracle;
+			sourceTree = "<group>";
+		};
+		FC667011147090690008FCB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC667012147090690008FCB0 /* TheOracle-Info.plist */,
+				FC667013147090690008FCB0 /* InfoPlist.strings */,
+				FC667016147090690008FCB0 /* main.m */,
+				FC667018147090690008FCB0 /* TheOracle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC667005147090690008FCB0 /* TheOracle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC66702F147090690008FCB0 /* Build configuration list for PBXNativeTarget "TheOracle" */;
+			buildPhases = (
+				FC667002147090690008FCB0 /* Sources */,
+				FC667003147090690008FCB0 /* Frameworks */,
+				FC667004147090690008FCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheOracle;
+			productName = TheOracle;
+			productReference = FC667006147090690008FCB0 /* TheOracle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC666FFD147090690008FCB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FC667000147090690008FCB0 /* Build configuration list for PBXProject "TheOracle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC666FFB147090690008FCB0;
+			productRefGroup = FC667007147090690008FCB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC667005147090690008FCB0 /* TheOracle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC667004147090690008FCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC667015147090690008FCB0 /* InfoPlist.strings in Resources */,
+				FC66701E147090690008FCB0 /* MainStoryboard.storyboard in Resources */,
+				FC667023147090690008FCB0 /* first.png in Resources */,
+				FC667025147090690008FCB0 /* first@2x.png in Resources */,
+				FC66702A147090690008FCB0 /* second.png in Resources */,
+				FC66702C147090690008FCB0 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC667002147090690008FCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC667017147090690008FCB0 /* main.m in Sources */,
+				FC66701B147090690008FCB0 /* AppDelegate.m in Sources */,
+				FC667021147090690008FCB0 /* FirstViewController.m in Sources */,
+				FC667028147090690008FCB0 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC667013147090690008FCB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC667014147090690008FCB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC66701C147090690008FCB0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC66701D147090690008FCB0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC66702D147090690008FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC66702E147090690008FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC667030147090690008FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheOracle/TheOracle-Prefix.pch";
+				INFOPLIST_FILE = "TheOracle/TheOracle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC667031147090690008FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheOracle/TheOracle-Prefix.pch";
+				INFOPLIST_FILE = "TheOracle/TheOracle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC667000147090690008FCB0 /* Build configuration list for PBXProject "TheOracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC66702D147090690008FCB0 /* Debug */,
+				FC66702E147090690008FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC66702F147090690008FCB0 /* Build configuration list for PBXNativeTarget "TheOracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC667030147090690008FCB0 /* Debug */,
+				FC667031147090690008FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC666FFD147090690008FCB0 /* Project object */;
+}
